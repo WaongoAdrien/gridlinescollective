@@ -178,6 +178,46 @@ h6 {
   }
 }
 
+.header .lang-switcher {
+  display: flex;
+  align-items: center;
+  margin: 0 18px;
+}
+
+.header .lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23ffffff' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='4 6 8 10 12 6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 11px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 60%);
+  border-radius: 4px;
+  padding: 4px 26px 4px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--default-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header .lang-select:hover {
+  border-color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
+
+.header .lang-select:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.header .lang-select option {
+  color: #003a36;
+  background: #ffffff;
+}
+
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
@@ -206,14 +246,28 @@ h6 {
     padding: 6px 20px;
   }
 
-  .header .navmenu {
+  .header .lang-switcher {
     order: 3;
+    margin: 0 10px 0 0;
+  }
+
+  .header .navmenu {
+    order: 4;
   }
 }
 
 @media (max-width: 576px) {
   .header .btn-getstarted {
     display: none;
+  }
+
+  .header .lang-switcher {
+    margin: 0 10px 0 0;
+  }
+
+  .header .lang-select {
+    padding: 3px 22px 3px 8px;
+    font-size: 12px;
   }
 }
 

@@ -40,15 +40,22 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="common.navHome">Home</a></li>
+          <li><a href="about.html" class="active" data-i18n="common.navAbout">About</a></li>
+          <li><a href="services.html" data-i18n="common.navServices">Services</a></li>
+          <li><a href="contact.html" data-i18n="common.navContact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="contact.html#consultation">Book a Call</a>
+      <div class="lang-switcher">
+        <select class="lang-select" aria-label="Language">
+          <option value="en">EN</option>
+          <option value="fr">FR</option>
+        </select>
+      </div>
+
+      <a class="btn-getstarted" href="contact.html#consultation" data-i18n="common.bookCallShort">Book a Call</a>
 
     </div>
   </header>
@@ -61,8 +68,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>About Us</h1>
-              <p class="mb-0">We pair the right brands with the right creators and manage every step of the campaign — from strategy to execution.</p>
+              <h1 data-i18n="about.pageTitle">About Us</h1>
+              <p class="mb-0" data-i18n="about.pageSubtitle">We pair the right brands with the right creators and manage every step of the campaign — from strategy to execution.</p>
             </div>
           </div>
         </div>
@@ -70,9 +77,9 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="common.breadcrumbHome">Home</a></li>
+          <li><a href="services.html" data-i18n="common.breadcrumbServices">Services</a></li>
+          <li><a href="contact.html" data-i18n="common.breadcrumbContact">Contact</a></li>
           </ol>
         </div>
       </nav>
@@ -89,16 +96,16 @@
               <img src="assets/img/misc/groupconversation.jpeg" alt="Veteran-owned marketing team reviewing campaign performance" class="img-fluid main-image">
               <div class="experience-badge">
                 <span class="years">3</span>
-                <span class="text">Core Industries</span>
+                <span class="text" data-i18n="home.whyBadgeLabel">Core Industries</span>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="about-content">
-              <h2>We Help Businesses Reach Their Full Potential</h2>
-              <p class="lead">Gridlines Collective was founded on a simple belief: influencer marketing only works when the right creators are paired with the right brands.</p>
-              <p>We don't chase vanity metrics, we build campaigns that drive real business outcomes: awareness, leads, and revenue. We specialize in three industries where authentic storytelling matters most. Military &amp; Veteran brands, Home &amp; Garden, and Islamic &amp; Halal businesses. Every partnership we build is rooted in integrity, transparency, and long-term growth.</p>
+              <h2 data-i18n="about.introHeading">We Help Businesses Reach Their Full Potential</h2>
+              <p class="lead" data-i18n="about.introLead">Gridlines Collective was founded on a simple belief: influencer marketing only works when the right creators are paired with the right brands.</p>
+              <p data-i18n="about.introBody">We don't chase vanity metrics, we build campaigns that drive real business outcomes: awareness, leads, and revenue. We specialize in three industries where authentic storytelling matters most. Military &amp; Veteran brands, Home &amp; Garden, and Islamic &amp; Halal businesses. Every partnership we build is rooted in integrity, transparency, and long-term growth.</p>
 
               <div class="row features-row">
                 <div class="col-md-6">
@@ -106,8 +113,8 @@
                     <div class="icon">
                       <i class="bi bi-graph-up-arrow"></i>
                     </div>
-                    <h4>Real ROI, Not Vanity Metrics</h4>
-                    <p>We build campaigns measured on awareness, leads, and revenue — not just follower counts.</p>
+                    <h4 data-i18n="about.introFeature1Title">Real ROI, Not Vanity Metrics</h4>
+                    <p data-i18n="about.introFeature1Text">We build campaigns measured on awareness, leads, and revenue — not just follower counts.</p>
                   </div>
                 </div>
 
@@ -116,8 +123,8 @@
                     <div class="icon">
                       <i class="bi bi-lightbulb"></i>
                     </div>
-                    <h4>Niche Industry Focus</h4>
-                    <p>Deep experience in Military &amp; Veteran, Home &amp; Garden, and Islamic &amp; Halal markets.</p>
+                    <h4 data-i18n="about.introFeature2Title">Niche Industry Focus</h4>
+                    <p data-i18n="about.introFeature2Text">Deep experience in Military &amp; Veteran, Home &amp; Garden, and Islamic &amp; Halal markets.</p>
                   </div>
                 </div>
 
@@ -126,8 +133,8 @@
                     <div class="icon">
                       <i class="bi bi-people"></i>
                     </div>
-                    <h4>Vetted Creator Network</h4>
-                    <p>No guesswork, no mismatches — every creator is screened for audience and brand fit.</p>
+                    <h4 data-i18n="about.introFeature3Title">Vetted Creator Network</h4>
+                    <p data-i18n="about.introFeature3Text">No guesswork, no mismatches — every creator is screened for audience and brand fit.</p>
                   </div>
                 </div>
 
@@ -136,14 +143,14 @@
                     <div class="icon">
                       <i class="bi bi-trophy"></i>
                     </div>
-                    <h4>Full Transparency</h4>
-                    <p>Clear, honest reporting on what your investment is actually delivering.</p>
+                    <h4 data-i18n="about.introFeature4Title">Full Transparency</h4>
+                    <p data-i18n="about.introFeature4Text">Clear, honest reporting on what your investment is actually delivering.</p>
                   </div>
                 </div>
               </div>
 
               <div class="cta-button">
-                <a href="contact.html#consultation" class="btn btn-primary">Learn More About Us</a>
+                <a href="contact.html#consultation" class="btn btn-primary" data-i18n="about.introCtaBtn">Learn More About Us</a>
               </div>
             </div>
           </div>
@@ -158,8 +165,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>How We Work</h2>
-        <div><span>Check Our</span> <span class="description-title">Process</span></div>
+        <h2 data-i18n="about.processTitle">How We Work</h2>
+        <div><span data-i18n="home.testimonialsKicker1">Check Our</span> <span class="description-title" data-i18n="about.processKicker2">Process</span></div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -167,13 +174,13 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="steps-content">
-              <h2>A Clear, Proven Process</h2>
-              <p class="lead">From first conversation to final report — no guesswork, no wasted spend.</p>
-              <p>We start with a deep dive into your brand, goals, and audience, then source and vet creators whose reach and values align precisely with what you need. Every campaign is fully managed and closes with a real performance report.</p>
+              <h2 data-i18n="about.processHeading">A Clear, Proven Process</h2>
+              <p class="lead" data-i18n="about.processLead">From first conversation to final report — no guesswork, no wasted spend.</p>
+              <p data-i18n="about.processBody">We start with a deep dive into your brand, goals, and audience, then source and vet creators whose reach and values align precisely with what you need. Every campaign is fully managed and closes with a real performance report.</p>
 
               <div class="steps-cta">
-                <a href="contact.html#consultation" class="btn btn-primary">Book a Strategy Call</a>
-                <a href="services.html" class="btn btn-outline">Our Services</a>
+                <a href="contact.html#consultation" class="btn btn-primary" data-i18n="common.bookCall">Book a Strategy Call</a>
+                <a href="services.html" class="btn btn-outline" data-i18n="home.heroBtnOutline">Our Services</a>
               </div>
             </div>
           </div>
@@ -183,40 +190,40 @@
               <div class="step-item">
                 <div class="step-number">01</div>
                 <div class="step-content">
-                  <h3>Discovery &amp; Strategy</h3>
-                  <p>We start with a deep dive into your brand, goals, and target audience to build a campaign strategy designed for measurable results.</p>
+                  <h3 data-i18n="about.step1Title">Discovery &amp; Strategy</h3>
+                  <p data-i18n="about.step1Text">We start with a deep dive into your brand, goals, and target audience to build a campaign strategy designed for measurable results.</p>
                 </div>
               </div>
 
               <div class="step-item">
                 <div class="step-number">02</div>
                 <div class="step-content">
-                  <h3>Creator Sourcing &amp; Vetting</h3>
-                  <p>We source and vet creators from our network whose audience demographics, engagement, and content style align precisely with your brand.</p>
+                  <h3 data-i18n="about.step2Title">Creator Sourcing &amp; Vetting</h3>
+                  <p data-i18n="about.step2Text">We source and vet creators from our network whose audience demographics, engagement, and content style align precisely with your brand.</p>
                 </div>
               </div>
 
               <div class="step-item">
                 <div class="step-number">03</div>
                 <div class="step-content">
-                  <h3>Creator Matching</h3>
-                  <p>You review and approve the creators we recommend before any outreach begins — no surprises.</p>
+                  <h3 data-i18n="about.step3Title">Creator Matching</h3>
+                  <p data-i18n="about.step3Text">You review and approve the creators we recommend before any outreach begins — no surprises.</p>
                 </div>
               </div>
 
               <div class="step-item">
                 <div class="step-number">04</div>
                 <div class="step-content">
-                  <h3>Execution &amp; Management</h3>
-                  <p>We manage outreach, negotiation, content review, and publishing, so your team doesn't have to.</p>
+                  <h3 data-i18n="about.step4Title">Execution &amp; Management</h3>
+                  <p data-i18n="about.step4Text">We manage outreach, negotiation, content review, and publishing, so your team doesn't have to.</p>
                 </div>
               </div>
 
               <div class="step-item">
                 <div class="step-number">05</div>
                 <div class="step-content">
-                  <h3>Reporting &amp; Results</h3>
-                  <p>Clear, data-driven reporting on reach, engagement, conversions, and ROI when the campaign closes.</p>
+                  <h3 data-i18n="about.step5Title">Reporting &amp; Results</h3>
+                  <p data-i18n="about.step5Text">Clear, data-driven reporting on reach, engagement, conversions, and ROI when the campaign closes.</p>
                 </div>
               </div>
             </div>
@@ -232,8 +239,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Why Choose Us</h2>
-        <div><span>Why Choose</span> <span class="description-title">Gridlines Collective</span></div>
+        <h2 data-i18n="about.whyTitle">Why Choose Us</h2>
+        <div><span data-i18n="about.whyKicker1">Why Choose</span> <span class="description-title">Gridlines Collective</span></div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -241,9 +248,9 @@
         <div class="row align-items-center">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="features-content">
-              <h2>Built for Brands That Mean Business</h2>
-              <p class="lead">We don't chase vanity metrics. We build campaigns that drive real business outcomes.</p>
-              <p>Every partnership we build is rooted in integrity, transparency, and long-term growth — with a focus on the communities where authentic storytelling matters most.</p>
+              <h2 data-i18n="about.whyHeading">Built for Brands That Mean Business</h2>
+              <p class="lead" data-i18n="about.whyLead">We don't chase vanity metrics. We build campaigns that drive real business outcomes.</p>
+              <p data-i18n="about.whyBody">Every partnership we build is rooted in integrity, transparency, and long-term growth — with a focus on the communities where authentic storytelling matters most.</p>
 
               <div class="features-list">
                 <div class="feature-item">
@@ -251,8 +258,8 @@
                     <i class="bi bi-award"></i>
                   </div>
                   <div class="feature-text">
-                    <h4>Industry Expertise</h4>
-                    <p>Deep, specific experience in Military &amp; Veteran, Home &amp; Garden, and Islamic &amp; Halal marketing.</p>
+                    <h4 data-i18n="about.whyFeature1Title">Industry Expertise</h4>
+                    <p data-i18n="about.whyFeature1Text">Deep, specific experience in Military &amp; Veteran, Home &amp; Garden, and Islamic &amp; Halal marketing.</p>
                   </div>
                 </div>
 
@@ -261,8 +268,8 @@
                     <i class="bi bi-graph-up"></i>
                   </div>
                   <div class="feature-text">
-                    <h4>Data-Driven Approach</h4>
-                    <p>Every campaign is built and measured against real KPIs — awareness, leads, and revenue.</p>
+                    <h4 data-i18n="about.whyFeature2Title">Data-Driven Approach</h4>
+                    <p data-i18n="about.whyFeature2Text">Every campaign is built and measured against real KPIs — awareness, leads, and revenue.</p>
                   </div>
                 </div>
 
@@ -271,8 +278,8 @@
                     <i class="bi bi-clock-history"></i>
                   </div>
                   <div class="feature-text">
-                    <h4>Hands-On Management</h4>
-                    <p>We manage outreach, negotiation, content review, and publishing so you don't have to.</p>
+                    <h4 data-i18n="about.whyFeature3Title">Hands-On Management</h4>
+                    <p data-i18n="about.whyFeature3Text">We manage outreach, negotiation, content review, and publishing so you don't have to.</p>
                   </div>
                 </div>
 
@@ -281,8 +288,8 @@
                     <i class="bi bi-shield-check"></i>
                   </div>
                   <div class="feature-text">
-                    <h4>Full Transparency</h4>
-                    <p>Clear reporting on reach, engagement, conversions, and ROI — so you know what's working.</p>
+                    <h4 data-i18n="about.whyFeature4Title">Full Transparency</h4>
+                    <p data-i18n="about.whyFeature4Text">Clear reporting on reach, engagement, conversions, and ROI — so you know what's working.</p>
                   </div>
                 </div>
               </div>
@@ -295,27 +302,27 @@
               <div class="experience-badge">
                 <div class="badge-content">
                   <span class="number">3</span>
-                  <span class="text">Industries of Focus</span>
+                  <span class="text" data-i18n="about.whyBadgeLabel">Industries of Focus</span>
                 </div>
               </div>
             </div>
           <br>
             <div class="stats-grid" data-aos="fade-up" data-aos-delay="400">
               <div class="stats-grid-item">
-                <span class="stats-grid-number">Real</span>
-                <span class="stats-grid-label">ROI Reporting</span>
+                <span class="stats-grid-number" data-i18n="about.statReal">Real</span>
+                <span class="stats-grid-label" data-i18n="about.statRoiLabel">ROI Reporting</span>
               </div>
               <div class="stats-grid-item">
-                <span class="stats-grid-number">Full</span>
-                <span class="stats-grid-label">Campaign Management</span>
+                <span class="stats-grid-number" data-i18n="about.statFull">Full</span>
+                <span class="stats-grid-label" data-i18n="about.statCampaignLabel">Campaign Management</span>
               </div>
               <div class="stats-grid-item">
                 <span class="stats-grid-number">3</span>
-                <span class="stats-grid-label">Core Industries</span>
+                <span class="stats-grid-label" data-i18n="home.whyBadgeLabel">Core Industries</span>
               </div>
               <div class="stats-grid-item">
                 <span class="stats-grid-number">0</span>
-                <span class="stats-grid-label">Guesswork</span>
+                <span class="stats-grid-label" data-i18n="about.statGuessworkLabel">Guesswork</span>
               </div>
             </div>
             <p class="stats-grid-note"></p>
@@ -331,8 +338,8 @@
     <section id="team" class="team section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <div><span>Check Our</span> <span class="description-title">Team</span></div>
+        <h2 data-i18n="about.teamTitle">Team</h2>
+        <div><span data-i18n="home.testimonialsKicker1">Check Our</span> <span class="description-title" data-i18n="about.teamKicker2">Team</span></div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -386,8 +393,8 @@
                 </div>
                 <div class="team-content">
                   <h3>Kanté Souleymane</h3>
-                  <span>CEO</span>
-                  <p>Kanté is the founder and CEO of Gridlines Collective, with extensive experience in the marketing and advertising industry. He has a passion for helping brands tell their stories and connect with their audiences in meaningful ways.</p>
+                  <span data-i18n="about.teamRole">CEO</span>
+                  <p data-i18n="about.teamBio">Kanté is the founder and CEO of Gridlines Collective, with extensive experience in the marketing and advertising industry. He has a passion for helping brands tell their stories and connect with their audiences in meaningful ways.</p>
                 </div>
               </div><!-- End Team Card -->
             </div><!-- End slide item -->
@@ -497,9 +504,9 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
-            <h4>Address</h4>
-            <p>1024 Spicer Drive</p>
-            <p>Clarksville, TN 37042</p>
+            <h4 data-i18n="common.footerAddressTitle">Address</h4>
+            <p data-i18n="common.footerAddressLine1">1024 Spicer Drive</p>
+            <p data-i18n="common.footerAddressLine2">Clarksville, TN 37042</p>
             <p></p>
           </div>
 
@@ -508,10 +515,10 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>Contact</h4>
+            <h4 data-i18n="common.footerContactTitle">Contact</h4>
             <p>
-              <strong>Phone:</strong> <span><a href="tel:+15108809355">(510) 880-9355</a></span><br>
-              <strong>Email:</strong> <span><a href="mailto:Contact@gridlinescollective.com" target="_blank">Contact@gridlinescollective.com</a></span><br>
+              <strong data-i18n="common.footerPhoneLabel">Phone:</strong> <span><a href="tel:+15108809355">(510) 880-9355</a></span><br>
+              <strong data-i18n="common.footerEmailLabel">Email:</strong> <span><a href="mailto:Contact@gridlinescollective.com" target="_blank">Contact@gridlinescollective.com</a></span><br>
             </p>
           </div>
         </div>
@@ -519,15 +526,15 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Opening Hours</h4>
+            <h4 data-i18n="common.footerHoursTitle">Opening Hours</h4>
             <p>
-              <strong>Hours:</strong> <span>24/7</span>
+              <strong data-i18n="common.footerHoursLabel">Hours:</strong> <span data-i18n="common.footerHoursValue">24/7</span>
             </p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <h4>Follow Us</h4>
+          <h4 data-i18n="common.footerFollowTitle">Follow Us</h4>
           <div class="social-links d-flex">
             <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
             <a href="https://www.facebook.com/profile.php?id=100063568023432" target="_blank" rel="noopener" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -540,7 +547,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Gridlines Collective</strong> <span>All Rights Reserved</span></p>
+      <p>© <span data-i18n="common.footerCopyright">Copyright</span> <strong class="px-1 sitename">Gridlines Collective</strong> <span data-i18n="common.footerRights">All Rights Reserved</span></p>
     </div>
 
   </footer>
@@ -557,6 +564,10 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Language Switcher -->
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/i18n.js"></script>
 
 </body>
 

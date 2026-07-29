@@ -40,15 +40,22 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html" class="active">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="common.navHome">Home</a></li>
+          <li><a href="about.html" data-i18n="common.navAbout">About</a></li>
+          <li><a href="services.html" class="active" data-i18n="common.navServices">Services</a></li>
+          <li><a href="contact.html" data-i18n="common.navContact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="contact.html#consultation">Book a Call</a>
+      <div class="lang-switcher">
+        <select class="lang-select" aria-label="Language">
+          <option value="en">EN</option>
+          <option value="fr">FR</option>
+        </select>
+      </div>
+
+      <a class="btn-getstarted" href="contact.html#consultation" data-i18n="common.bookCallShort">Book a Call</a>
 
     </div>
   </header>
@@ -61,8 +68,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Creator Sourcing</h1>
-              <p class="mb-0">We identify and vet creators whose audience, values, and content style align with your brand — no guesswork, no mismatches.</p>
+              <h1 data-i18n="serviceDetails.pageTitle">Creator Sourcing</h1>
+              <p class="mb-0" data-i18n="serviceDetails.pageSubtitle">We identify and vet creators whose audience, values, and content style align with your brand — no guesswork, no mismatches.</p>
             </div>
           </div>
         </div>
@@ -70,9 +77,9 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li class="current">Creator Sourcing</li>
+            <li><a href="index.html" data-i18n="common.breadcrumbHome">Home</a></li>
+            <li><a href="services.html" data-i18n="common.breadcrumbServices">Services</a></li>
+            <li class="current" data-i18n="serviceDetails.breadcrumbCurrent">Creator Sourcing</li>
           </ol>
         </div>
       </nav>
@@ -87,46 +94,46 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="services-list">
-              <a href="service-details.html" class="active">Creator Sourcing</a>
-              <a href="services.html">Campaign Management</a>
-              <a href="services.html">Performance Reporting</a>
-              <a href="services.html">Industry Matching</a>
-              <a href="services.html">Content Review &amp; Compliance</a>
-              <a href="services.html">Campaign Strategy</a>
+              <a href="service-details.html" class="active" data-i18n="serviceDetails.sidebarLink1">Creator Sourcing</a>
+              <a href="services.html" data-i18n="serviceDetails.sidebarLink2">Campaign Management</a>
+              <a href="services.html" data-i18n="serviceDetails.sidebarLink3">Performance Reporting</a>
+              <a href="services.html" data-i18n="serviceDetails.sidebarLink4">Industry Matching</a>
+              <a href="services.html" data-i18n="serviceDetails.sidebarLink5">Content Review &amp; Compliance</a>
+              <a href="services.html" data-i18n="serviceDetails.sidebarLink6">Campaign Strategy</a>
             </div>
 
-            <h4>Why Sourcing Comes First</h4>
-            <p>The right creator can carry a campaign. The wrong one can quietly sink it — mismatched audience, off-brand tone, engagement that doesn't convert. We treat sourcing as the foundation everything else is built on, not a box to check.</p>
+            <h4 data-i18n="serviceDetails.sidebarWhyTitle">Why Sourcing Comes First</h4>
+            <p data-i18n="serviceDetails.sidebarWhyText">The right creator can carry a campaign. The wrong one can quietly sink it — mismatched audience, off-brand tone, engagement that doesn't convert. We treat sourcing as the foundation everything else is built on, not a box to check.</p>
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
             <img src="assets/img/misc/persondiscussion.jpeg" alt="Team reviewing and vetting creator candidates" class="img-fluid services-img">
-            <h3>The Right Creator Changes Everything</h3>
-            <p>
+            <h3 data-i18n="serviceDetails.mainTitle">The Right Creator Changes Everything</h3>
+            <p data-i18n="serviceDetails.mainPara1">
               Most influencer platforms hand you a spreadsheet of follower counts and call it a shortlist. We don't. Every creator we bring to your table has been reviewed by a real person against your brand's specific goals — not a filter for follower count.
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Audience &amp; fit analysis — we confirm their followers actually look like your customers.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Engagement vetting — we look past the vanity numbers for real, active audiences.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Brand alignment review — their values, tone, and past content have to hold up to your standards.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="serviceDetails.listItem1">Audience &amp; fit analysis — we confirm their followers actually look like your customers.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="serviceDetails.listItem2">Engagement vetting — we look past the vanity numbers for real, active audiences.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="serviceDetails.listItem3">Brand alignment review — their values, tone, and past content have to hold up to your standards.</span></li>
             </ul>
-            <p>
+            <p data-i18n="serviceDetails.mainPara2">
               This matters most in the spaces we know best. Military &amp; Veteran, Home &amp; Garden, and Islamic &amp; Halal audiences can spot an inauthentic partnership immediately — so we source creators with genuine ties to these communities, not just a willingness to post an ad.
             </p>
 
-            <h4>How We Source</h4>
+            <h4 data-i18n="serviceDetails.howWeSourceTitle">How We Source</h4>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <span><strong>Discovery:</strong> we start from your goals, not a generic creator database, and build a target profile around who actually moves your business forward.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span><strong>Vetting:</strong> every candidate is reviewed for audience quality, content history, and brand fit before their name ever reaches you.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span><strong>Shortlist &amp; introduction:</strong> you get a curated shortlist with context on why each creator made the cut — you approve before we make first contact.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span><strong data-i18n="serviceDetails.sourceLabel1">Discovery:</strong> <span data-i18n="serviceDetails.sourceText1">we start from your goals, not a generic creator database, and build a target profile around who actually moves your business forward.</span></span></li>
+              <li><i class="bi bi-check-circle"></i> <span><strong data-i18n="serviceDetails.sourceLabel2">Vetting:</strong> <span data-i18n="serviceDetails.sourceText2">every candidate is reviewed for audience quality, content history, and brand fit before their name ever reaches you.</span></span></li>
+              <li><i class="bi bi-check-circle"></i> <span><strong data-i18n="serviceDetails.sourceLabel3">Shortlist &amp; introduction:</strong> <span data-i18n="serviceDetails.sourceText3">you get a curated shortlist with context on why each creator made the cut — you approve before we make first contact.</span></span></li>
             </ul>
-            <p>
+            <p data-i18n="serviceDetails.finalPara">
               Once sourcing is done right, every step after it — outreach, content, reporting — gets easier. That's the whole idea.
             </p>
 
             <div class="mt-4">
-              <a href="contact.html#consultation" class="btn btn-primary">Book a Strategy Call</a>
-              <a href="services.html" class="btn btn-outline">View All Services</a>
+              <a href="contact.html#consultation" class="btn btn-primary" data-i18n="common.bookCall">Book a Strategy Call</a>
+              <a href="services.html" class="btn btn-outline" data-i18n="serviceDetails.viewAllBtn">View All Services</a>
             </div>
           </div>
 
@@ -145,9 +152,9 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
-            <h4>Address</h4>
-            <p>1024 Spicer Drive</p>
-            <p>Clarksville, TN 37042</p>
+            <h4 data-i18n="common.footerAddressTitle">Address</h4>
+            <p data-i18n="common.footerAddressLine1">1024 Spicer Drive</p>
+            <p data-i18n="common.footerAddressLine2">Clarksville, TN 37042</p>
             <p></p>
           </div>
 
@@ -156,10 +163,10 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>Contact</h4>
+            <h4 data-i18n="common.footerContactTitle">Contact</h4>
             <p>
-              <strong>Phone:</strong> <span><a href="tel:+15108809355">(510) 880-9355</a></span><br>
-              <strong>Email:</strong> <span><a href="mailto:Contact@gridlinescollective.com" target="_blank">Contact@gridlinescollective.com</a></span><br>
+              <strong data-i18n="common.footerPhoneLabel">Phone:</strong> <span><a href="tel:+15108809355">(510) 880-9355</a></span><br>
+              <strong data-i18n="common.footerEmailLabel">Email:</strong> <span><a href="mailto:Contact@gridlinescollective.com" target="_blank">Contact@gridlinescollective.com</a></span><br>
             </p>
           </div>
         </div>
@@ -167,15 +174,15 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Opening Hours</h4>
+            <h4 data-i18n="common.footerHoursTitle">Opening Hours</h4>
             <p>
-              <strong>Hours:</strong> <span>24/7</span>
+              <strong data-i18n="common.footerHoursLabel">Hours:</strong> <span data-i18n="common.footerHoursValue">24/7</span>
             </p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <h4>Follow Us</h4>
+          <h4 data-i18n="common.footerFollowTitle">Follow Us</h4>
           <div class="social-links d-flex">
             <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
             <a href="https://www.facebook.com/profile.php?id=100063568023432" target="_blank" rel="noopener" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -188,7 +195,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Gridlines Collective</strong> <span>All Rights Reserved</span></p>
+      <p>© <span data-i18n="common.footerCopyright">Copyright</span> <strong class="px-1 sitename">Gridlines Collective</strong> <span data-i18n="common.footerRights">All Rights Reserved</span></p>
     </div>
 
   </footer>
@@ -205,6 +212,10 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Language Switcher -->
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/i18n.js"></script>
 
 </body>
 
