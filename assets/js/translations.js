@@ -33,7 +33,7 @@ window.translations = {
     home: {
       heroHeading: "Connecting Brands With Creators Who Deliver Results",
       heroSubtext: "Gridlines Collective matches the right brands with the right creators and manages every step of the campaign from strategy to execution.",
-      heroBtnPrimary: "Book Now",
+      heroBtnPrimary: "Book a Strategy Call",
       heroBtnOutline: "Our Services",
       heroStat1Label: "Core Industries Served",
       heroStat2Label: "Campaign-Managed, Start to Finish",
@@ -314,8 +314,8 @@ window.translations = {
       navAbout: "À propos",
       navServices: "Services",
       navContact: "Contact",
-      bookCall: "Réserver un appel stratégique",
-      bookCallShort: "Réserver",
+      bookCall: "Réserver un appel",
+      bookCallShort: "Réserver un appel",
       footerAddressTitle: "Adresse",
       footerAddressLine1: "1024 Spicer Drive",
       footerAddressLine2: "Clarksville, TN 37042",
@@ -338,7 +338,7 @@ window.translations = {
     home: {
       heroHeading: "Connecter les marques aux créateurs qui font vraiment la différence",
       heroSubtext: "Gridlines Collective associe les bonnes marques aux bons créateurs et gère chaque étape de la campagne, de la stratégie à l'exécution.",
-      heroBtnPrimary: "Réserver",
+      heroBtnPrimary: "Réserver un appel",
       heroBtnOutline: "Nos services",
       heroStat1Label: "Secteurs d'activité desservis",
       heroStat2Label: "Campagnes gérées de bout en bout",
